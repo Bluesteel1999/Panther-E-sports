@@ -1,0 +1,57 @@
+body {
+    background-image: url(../images/black.png);
+    margin: 0;
+    text-align: center;
+}
+
+.navbar {
+    height: 40px;
+    background-color: transparent;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 25px;
+}
+
+.navbar ul li a:hover {
+    color: #ff028e;
+}
+
+.sc {
+    float: right;
+    padding: 4px;
+}
+
+.sc:hover {
+    opacity: 0.5
+}
+
+.Games {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-weight: bold;
+    font-size: 25px;
+}
